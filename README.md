@@ -4,7 +4,7 @@
 [![ICME 2026](https://img.shields.io/badge/ICME%202026-Spotlight-ff69b4.svg)]()
 
 <p align="center">
-  <img src="assets/teaser.png" width="90%">
+  <img src="docs/teaser.png" width="90%">
 </p>
 
 This repository contains the official implementation of **TUGS**, a physics-based compact neural representation for underwater scene reconstruction. Our method has been accepted to **ICME 2026 as a Spotlight** presentation.
@@ -20,7 +20,7 @@ Underwater scene reconstruction faces unique challenges due to light scattering 
 - **Factor Sharing Strategy**: Our method shares geometric factors across the scene while allowing appearance variations, enabling compact representation (as low as **11-21 MB**) with competitive quality.
 
 <p align="center">
-  <img src="assets/framework.png" width="95%">
+  <img src="docs/framework.png" width="95%">
   <br>
   <em>Overview of TUGS framework. We use CP decomposition to tensorize Gaussian parameters and employ a physics-based underwater imaging model to handle light attenuation and backscatter.</em>
 </p>
@@ -131,12 +131,12 @@ ns-train cpgs_v4 --vis viewer+wandb colmap \
 The **CP rank (R)** controls the trade-off between reconstruction quality and model compactness. We perform sensitivity analysis on rank selection:
 
 <p align="center">
-  <img src="assets/rank_ablation.png" width="70%">
+  <img src="docs/rank_ablation.png" width="70%">
   <br>
-  <em>Ablation study on CP Rank (R) vs. Quality & Storage. PSNR improves with R but growth stabilizes after R=20, while storage grows linearly.</em>
+  <em>Ablation study on CP Rank (R) vs. Quality & Storage on IUI3 Red Sea Scene. PSNR improves with R but growth stabilizes after R=20, while storage grows linearly.</em>
 </p>
 
-**Key findings** (see rebuttal Q1 for details):
+**Key findings**:
 - **R=20** offers an optimal trade-off: **28.98 dB PSNR** with only **18.10 MB** storage
 - **R=50** triples storage to 55.20 MB for 1.7 dB gain
 - Even at R=50 (55 MB), we surpass 3DGS (105 MB) by **+2.4 dB** with **50% size reduction**
