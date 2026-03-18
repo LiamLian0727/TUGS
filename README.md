@@ -27,7 +27,7 @@ Underwater scene reconstruction faces unique challenges due to light scattering 
 
 ## 🚀 Key Features
 
-- **Compact Storage**: Achieves **10-35x compression** compared to standard 3DGS (383 MB → 11-21 MB)
+- **Compact Storage**: Achieves **10-35x compression** compared to standard SeaThru-NeRF (383 MB → 11-21 MB)
 - **High Quality**: Surpasses 3DGS by **+2.4dB PSNR** with only 50% storage at rank=50
 - **Real-time Rendering**: Supports efficient rendering suitable for edge device deployment
 - **Physical Correctness**: Incorporates wavelength-dependent light attenuation and backscatter modeling
