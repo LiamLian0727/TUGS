@@ -1,7 +1,7 @@
 # TUGS: Physics-based Compact Representation of Underwater Scenes by Tensorized Gaussians
 
 [![arXiv](https://img.shields.io/badge/arXiv-2505.08811-b31b1b.svg)](https://arxiv.org/abs/2505.08811)
-[![ICME 2026](https://img.shields.io/badge/ICME%202026-Spotlight-ff69b4.svg)]()
+[![ICME 2026](https://img.shields.io/badge/ICME%202026-Spotlight-ff69b4.svg)](https://github.com/LiamLian0727/TUGS/)
 
 <p align="center">
   <img src="docs/teaser.png" width="90%">
