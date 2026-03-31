@@ -203,7 +203,7 @@ If you find this work useful for your research, please cite:
 ```bibtex
 @inproceedings{lian2026tugs,
   title={TUGS: Physics-based Compact Representation of Underwater Scenes by Tensorized Gaussians},
-  author={Lian, Shijie and Zhang, Ziyi and Yang, Laurence Tianruo and Ren, Mengyu and Liu, Debin and Li, Hua},
+  author={Lian, Shijie and Zhang, Ziyi and Li, Hua and Yang, Laurence Tianruo and Ren, Mengyu and Liu, Debin and Wu, Wenhui},
   booktitle={Proceedings of the IEEE International Conference on Multimedia and Expo (ICME)},
   year={2026},
   organization={IEEE}
